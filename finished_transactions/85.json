@@ -1,0 +1,22 @@
+{
+    "client_id": "16",
+    "books": [
+        {
+            "quantity": "1",
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "240784@edu.p.lodz.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+}

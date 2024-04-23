@@ -1,0 +1,27 @@
+{
+    "client_id": "16",
+    "books": [
+        {
+            "quantity": "1",
+            "title": "Drugie Imie",
+            "price": "35"
+        },
+        {
+            "quantity": "2",
+            "title": "Wiedzma",
+            "price": "24"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "240784@edu.p.lodz.pl"
+    },
+    "address": {
+        "city": "Pionki",
+        "postcode": "26-670",
+        "street": "Sienkiewicza",
+        "street_number": "9"
+    }
+}

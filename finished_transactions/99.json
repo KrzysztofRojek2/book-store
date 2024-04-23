@@ -1,0 +1,27 @@
+{
+    "client_id": "28",
+    "books": [
+        {
+            "quantity": "1",
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "quantity": "2",
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "Przelewy24",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345",
+        "email": "hehe@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "224-32",
+        "street": "asdas",
+        "street_number": "2"
+    }
+}

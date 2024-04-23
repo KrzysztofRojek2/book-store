@@ -1,0 +1,1154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+/* START ogólne */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #181818;
+    margin: 0;
+    padding: 0;
+}
+/* STOP ogólne */
+
+/* START header */
+header {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2rem;
+}
+/* STOP header */
+
+a {
+    text-decoration: none;
+}
+
+/* START navbar */
+.header-navbar ul {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.header-navbar ul li {
+    display: inline;
+    margin: 0 1.8rem;
+
+}
+
+.header-navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-navbar ul li:hover {
+    opacity: 0.7; 
+}
+/* mini-navbar */
+:root {
+    --bar-width:30px;
+    --bar-height:4px;
+    --hamburger-gap:6px;
+}
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    width: max-content;
+    z-index: 3;
+    cursor: pointer;
+}
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input {
+    border-radius: 50px;
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: white;
+
+}
+.hamburger-menu input{
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+.sidebar {
+    /* translate */
+    display: none;
+    translate: -300%;
+    margin-top: 3rem;
+}
+.hamburger-menu:has(input:checked) + .sidebar{
+    display: flex;
+    translate: 0;
+}
+
+.mini-navbar {
+    text-align: left;
+}
+.mini-navbar div{
+    margin-bottom: 0.5rem;
+}
+.navbar-icons-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+/* mini-navbar */
+
+/* STOP navbar */
+
+/* START button */
+button {
+    background-color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555; 
+}
+/* STOP button */
+
+/* START book w index.php */
+.book-list {
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem; /* Dodaj odstępy między elementami */
+    margin: 2rem;
+}
+.book {
+    position: relative;
+    background-color: #fff;
+    padding: 3rem 3rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.book h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.book p {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+.book:hover {
+    background-color: rgb(226, 223, 223);
+}
+.book button {
+    position: absolute;
+    bottom: 1rem; /* Odległość od dołu */
+    left: 50%; /* Pozycja na środku */
+    transform: translateX(-50%); /* Wycentrowanie poziome */
+}
+/* STOP book w index.php */
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #181818;
+    color: #fff;
+}
+
+/* START about.php */
+.about-us {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.about-us h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.about-us p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+/* STOP about.php */
+
+/* START checkout3.php */
+.finalize-purchase-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.finalize-purchase__book-list {
+    background-color: #d5d5d5;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+    margin-left: 3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.finalize-purchase__book-list h2,
+.finalize-purchase__book-list p{
+    font-size: smaller;
+}
+
+.finalize-purchase__book-list img{
+    max-width: 75px;
+}
+
+.finalize-purchase__order-details {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gap {
+    flex: 0.3;
+}
+.finalize-purchase__book-in-cart {
+    display: flex; 
+    margin: 1rem 0; 
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.finalize-purchase__price-tag{
+    display: flex;
+    flex-direction: column;
+}
+
+.finalize-purchase__order-details {
+    display: flex; 
+    flex-direction: column;
+    margin: 2rem; 
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+    max-height: 1000px;
+}
+.order-details__field{
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    padding: 0.5rem;
+}
+.finalize-purchase__button {
+    background-color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+.finalize-purchase__button:hover {
+    background-color: #009900;
+}
+
+.finalize-order-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finalize-order-buttons input {
+    margin-bottom: 10px;
+}
+
+/*  */
+
+
+.login-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+.login-container h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+.error-info {
+    color: red;
+    
+}
+
+.input-group {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin: 1rem;
+
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.index-book-image,
+.cart-book-image {
+    width: 100px;
+    height: auto;
+} 
+
+.slider-wrapper {
+    /* padding-top: 5rem; */
+    /* padding-bottom: 3rem; */
+    position: relative;
+    max-width: 65rem;
+    margin: 0 auto;
+}
+.slider {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
+}
+.slider::-webkit-scrollbar {
+    display: none; /* WebKit (Safari and Chrome) */
+}
+.slider {
+    /* width: 100%; */
+    display: flex;
+    /* aspect-ratio: 16 / 9; */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
+    /* border-radius: 0.25rem;  */
+}
+.slider img {
+    /* height: 500px;
+    width: 900px; */
+    padding-top: 5rem;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+
+.navbar-divider {
+    height: 1px;
+    background-color: #ccc; 
+    margin: 2rem;
+}
+
+/* .book-details {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-column {
+    text-align: right;
+}
+
+.book-details h1 {
+    font-size: 2rem;
+    margin: 1rem 5rem;
+}
+.book-details h2 {
+    font-size: 1.5rem;
+    margin: 1rem 5rem;
+}
+.book-details img {
+    margin-left: 5rem;
+    min-width: 533px; 
+    min-height: 800px; 
+} */
+/* START book.php */
+
+.single-book-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    
+}
+
+.book-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.right-column {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2rem;
+}
+
+.right-column h1 {
+    margin: 2rem 0;
+}
+
+.right-column h3 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.price {
+    margin-top: 1rem;
+}
+
+.publisher-price {
+    margin: 1rem 0;
+    color: gray;
+}
+.right-column button {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+
+.single-book-container__image {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+.terms-table {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.terms-table p {
+    font-size: larger;
+    border-bottom: 1px solid gainsboro;
+    padding: 0.5rem;
+}
+
+.description {
+    margin: 2rem 0;
+
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 5rem 7rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.single-review {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid gainsboro;
+}
+
+.review-date {
+    color: gray;
+    font-weight: 600;
+} 
+
+.review-content {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.review-form {
+    border-top: 1px solid gainsboro;
+    padding-top: 1rem;
+}
+.review-textarea {
+    margin-top: 1rem;
+    width: 100%;
+    min-height: 2rem;
+    resize: none;
+}
+
+.delete-review-button-wrapper,
+.add-review-button-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+/* STOP book.php */
+
+.inputbox {
+    background-color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    margin-bottom: 1rem;
+}
+.register {
+    text-decoration: none;
+}
+
+.inputbox:hover {
+    background-color: #555; 
+}
+/*  */
+
+/* START shopping_cart.php */
+.booksInCart {
+    display: flex;
+    /* margin: 3rem 0; */
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.bookInCart {
+    display: flex; 
+    margin: 1rem 0; 
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 100%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    
+
+}
+
+.bookInCart h2 {
+    min-width: 12rem;
+}
+.bookInCart p {
+    font-size: 0.9rem;
+}
+
+.bookInCart:hover {
+    background-color: rgb(226, 223, 223);
+}
+
+.cart-buttons{
+    display: flex; 
+    justify-content: right;
+    flex-direction: column;
+    margin: 0 4.5rem;
+}
+.cart-button{
+    float: right;
+    margin: 0.5rem;
+}
+.cart-anchor{
+    /* width: 162.7px; */
+    float: right;
+    /* margin: 0.5rem; */
+    /* display: inline-block; */
+}
+
+.total-price {
+    width: 100%;
+    display: flex; 
+    justify-content: right;
+    font-weight: 800;
+}
+
+.total-price h3{
+    margin-right: 5rem;
+}
+.quantity-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.quantity-wrapper p{
+    margin: 2px;
+}
+.bookInCart-wrapper {
+    min-width: 90%;
+}
+/* STOP shopping_cart.php */
+
+/* START user_panel.php */
+.user-panel-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+.user-panel-wrapper form,
+.user-panel-wrapper h2,
+.user-panel-wrapper .no-contact-found,
+.user-panel-wrapper .no-address-found,
+.user-panel-wrapper button {
+    margin: 1rem 7rem;
+}
+.user-panel-wrapper button {
+    min-width: 110px;
+}
+.address-wrapper {
+    height: 100%;
+    flex: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content:flex-start; 
+    flex-direction: column;
+}
+
+.contact-wrapper {
+    height: 100%;
+    flex: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content:flex-start; 
+    flex-direction: column;
+}
+
+.address {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+.contact p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.address p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.category {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 95%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+/* STOP user_panel.php */
+
+
+/*START contact.php */
+.bookstore-contact {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.bookstore-contact h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.bookstore-contact p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.bookstore-contact ul {
+    list-style: none;
+}
+
+.bookstore-contact ul li {
+    margin: 1rem 0;
+}
+
+.bookstore-contact a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.bookstore-contact a:hover {
+    text-decoration: underline;
+}
+
+
+/*STOP contact.php */
+
+
+/*START admin_index.php */
+.book-list-admin {
+    display: flex;
+    flex-direction: column; 
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2rem;
+    position: relative;
+}
+
+.book-admin {
+    display: flex;
+    flex-direction: row; 
+    background-color: #fff;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    text-align: start;
+    align-items: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: relative;
+}
+
+.admin-index-buttons {
+    position: absolute;
+    margin-bottom: 1rem;
+    right: 1rem; /* Dostosuj wartość odstępu od prawej strony */
+    top: 0; /* Przesuń przyciski wyżej, wartość może być dostosowana według potrzeb */
+}
+
+.admin-index-buttons button  {
+    margin: 1rem;
+}
+
+.admin-book-image {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    left: 1rem; 
+}
+/*STOP admin_index.php */
+
+
+/*START buttons */
+.delete-button:hover  {
+    background-color: #ff0000;
+}
+.edit-button:hover {
+    background-color: #004080;
+}
+.add-button:hover {
+    background-color: #009900;
+}
+/*STOP buttons */
+
+/* START admin_authors.php / admin_categories.php */
+.author-section,
+.category-section,
+.article-author-or-category {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d5d5;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    text-align: left;
+    align-items: stretch; /* Zmiana na stretch, aby elementy były równo rozciągnięte */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: relative;
+}
+
+.article-author-or-category {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: relative;
+}
+
+/* .left-section,
+.right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; 
+} */
+.section {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+}
+
+.right-section {
+    text-align: right;
+    justify-content: flex-end;
+    width: 100%; 
+}
+
+
+.left-section button,
+.right-section button {
+    margin: 0.5rem;
+}
+.add-book-to-categories-button,
+.add-book-to-author-button {
+    text-align: right;
+}
+.delete-author-button {
+    text-align: right;
+}
+/* STOP admin_authors.php / admin_contacts.php */
+
+/* START admin_add_to_authors.php / admin_add_to_contacts.php */
+.book-admin-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.book-admin-wrapper .book-admin {
+    width: 100%;
+}
+
+/* STOP admin_add_to_authors.php / admin_add_to_contacts.php */
+
+/* START checkout1.php */
+
+.checkout-first-stage {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 4rem;
+}
+.address-checkout {
+    display: flex;
+    flex-direction: column;
+}
+.contact-checkout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.checkout-option {
+    width: 400px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    display: flex;
+    direction: row;
+    align-items: center;
+}
+
+input[type="radio"] {
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    /* Zaokrąglony kształt kółka */
+    border-radius: 50%;
+    /* Dodaj obramowanie */
+    border: 2px solid black;
+    /* Domyślnie kółko jest niewybrane */
+    background-color: white;
+    /* Kolor kółka, gdy jest zaznaczone */
+    margin-right: 10px;
+    &:checked {
+      background-color: black;
+    }
+  }
+/* STOP checkout1.php */
+
+/* START dla index.php filtrowanie */
+
+#filter-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s; /* Dodana płynność dla efektu animacji */
+    z-index: 1000; /* Wysoka wartość z-index dla umieszczenia na wierzchu */
+    width: 100%; /* Zajmowanie całej szerokości ekranu */
+
+}
+
+#filter-section h3 {
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#filter-section label,
+#filter-section select,
+#filter-section input {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#filter-section button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Dodane ustawienie float na lewo */
+}
+
+#filter-section  button:hover {
+    background-color: #555; 
+}
+#filter-section select {
+    width: auto; /* Zmiana szerokości na automatyczną, aby dostosować do zawartości */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#filter-section input[type="number"] {
+    width: auto; /* Zmiana szerokości na automatyczną, aby dostosować do zawartości */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #000;
+
+}
+#filter-section input[type="number"]::-webkit-inner-spin-button,
+#filter-section input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Dodatkowa stylizacja dla WebKit */
+}
+.filter-form {
+    display: flex;
+    justify-content: space-between;
+}
+.filter-form  div{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+/* STOP  dla index.php filtrowanie*/
+/* START dla admin_edit_book.php */
+
+.edit-book-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.edit-book-div button {
+    text-align: center;
+    margin: 1rem;
+}
+.edit-book-div .pseudo-buttons {
+    display: flex;
+    justify-content: center;
+}
+/* STOP dla admin_edit_book.php */
+
+/* DLA my_orders i admin_orders */
+.orders-table-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+.row{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.finalised-orders-table td,
+.awaiting-orders-table td {
+    padding: 0.5rem 3.5rem;
+}
+
+/* .finalised-orders-table ,
+.awaiting-orders-table {
+    max-width: 90%;
+} */
+
+.order-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.accept-order-button,
+.cancel-order-button,
+.check-order-button {
+    background-color: #181818;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+.accept-order-button {
+    flex:1;
+    margin-right: 1rem;
+}
+
+.cancel-order-button {
+    margin-left: 1rem;
+    flex:1;
+}
+
+.check-order-button {
+    width: 100%;
+}
+
+.orders-table-wrapper h1 {
+    margin: 2rem 0;
+}
+
+.purchase-confirmation-wrapper {
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.purchase-confirmation-wrapper p{
+    font-size: 1.2rem;
+}
+
+.return-to-main-btn,
+.browse-orders-btn {
+    font-size: 1.5rem;
+    padding: 1rem;
+    /* margin: 0 30rem; */
+}
+
+/* cookies START */
+.cookies-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: -370px;
+    max-width: 345px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    transition: right 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+.cookies-wrapper.show {
+    right: 20px;
+}
+
+.cookies-header {
+    background-color: #fff;
+    color: black;
+    /* display: flex; */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.cookie-button {
+    min-width: 149px;
+    min-height: 20px; 
+    font-size: 0.8rem;
+}
+
+/* cookies STOP */

@@ -1,0 +1,952 @@
+[{
+    "client_id": "16",
+    "first_name": "Krzysztof",
+    "last_name": "Rojek",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "total_price": 297,
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    },
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    }
+},
+{
+    "client_id": "16",
+    "first_name": "Krzysztof",
+    "last_name": "Rojek",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        }
+    ],
+    "payment_method": "Blik",
+    "shipping_method": "Inpost",
+    "total_price": 297,
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    },
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    }
+},
+{
+    "client_id": "16",
+    "first_name": "Krzysztof",
+    "last_name": "Rojek",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "total_price": 297,
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    },
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    }
+},
+{
+    "client_id": "16",
+    "first_name": "Krzysztof",
+    "last_name": "Rojek",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "total_price": 297,
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    },
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    }
+},
+{
+    "client_id": "16",
+    "first_name": "Krzysztof",
+    "last_name": "Rojek",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        }
+    ],
+    "payment_method": "Blik",
+    "shipping_method": "Inpost",
+    "total_price": 297,
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    },
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    }
+},
+{
+    "client_id": "16",
+    "first_name": "Krzysztof",
+    "last_name": "Rojek",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "total_price": 297,
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    },
+    "contact": {
+        "telephone_number": "2147483647",
+        "email": "240784@edu.p.lodz.pl"
+    }
+},
+{
+    "client_id": "16",
+    "first_name": "Krzysztof",
+    "last_name": "Rojek",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "Przelewy24",
+    "shipping_method": "Inpost",
+    "total_price": 332,
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    },
+    "contact": {
+        "telephone_number": "2147483647",
+        "email": "240784@edu.p.lodz.pl"
+    }
+},
+{
+    "client_id": "16",
+    "first_name": null,
+    "last_name": null,
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": null,
+    "shipping_method": null,
+    "total_price": 332,
+    "address": {
+        "city": null,
+        "postcode": null,
+        "street": null,
+        "street_number": null
+    },
+    "contact": {
+        "telephone_number": null,
+        "email": null
+    }
+},
+{
+    "client_id": "16",
+    "books": [],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "2147483647",
+        "email": "240784@edu.p.lodz.pl"
+    },
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "2147483647",
+        "email": "240784@edu.p.lodz.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Chlopi",
+            "price": "130"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Lapvona",
+            "price": "50"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "",
+    "shipping_method": "",
+    "contact": [],
+    "address": []
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "krzysztof-rojek7@wp.pl"
+    },
+    "address": {
+        "city": "\u0141\u00f3d\u017a",
+        "postcode": "43-550",
+        "street": "Ostrowskiego",
+        "street_number": "59"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Lapvona",
+            "price": "50"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Lapvona",
+            "price": "50"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Chlopi",
+            "price": "130"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+},
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Lapvona",
+            "price": "50"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        },
+        {
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        },
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "2147483647",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "26-600",
+        "street": "\u017beromskiego",
+        "street_number": "34"
+    }
+}

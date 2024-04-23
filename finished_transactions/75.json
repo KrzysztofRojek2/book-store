@@ -1,0 +1,25 @@
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        },
+        {
+            "title": "\u017buchwa Kaina",
+            "price": "27"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "2147483647",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Pionki",
+        "postcode": "26-670",
+        "street": "Sienkiewicza",
+        "street_number": "9"
+    }
+}

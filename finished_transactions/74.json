@@ -1,0 +1,29 @@
+{
+    "client_id": "16",
+    "books": [
+        {
+            "title": "Drugie Imie",
+            "price": "35"
+        },
+        {
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "title": "Dewajtis",
+            "price": "44"
+        }
+    ],
+    "payment_method": "MasterCard",
+    "shipping_method": "Inpost",
+    "contact": {
+        "telephone_number": "2147483647",
+        "email": "Alibaba987654322@wp.pl"
+    },
+    "address": {
+        "city": "Pionki",
+        "postcode": "26-670",
+        "street": "Sienkiewicza",
+        "street_number": "9"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "client_id": "27",
+    "books": [
+        {
+            "quantity": "2",
+            "title": "Wiedzma",
+            "price": "24"
+        },
+        {
+            "quantity": "2",
+            "title": "Ziemia obiecana",
+            "price": "22"
+        },
+        {
+            "quantity": "1",
+            "title": "Dewajtis",
+            "price": "44"
+        }
+    ],
+    "payment_method": "PayPal",
+    "shipping_method": "Pocztex",
+    "contact": {
+        "telephone_number": "12345678",
+        "email": "hehe@wp.pl"
+    },
+    "address": {
+        "city": "Radom",
+        "postcode": "23-44",
+        "street": "Ostrowskiego",
+        "street_number": "2"
+    }
+}
